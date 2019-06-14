@@ -1,16 +1,12 @@
 import pandas as pd
-from sklearn.metrics.pairwise import cosine_similarity
 import networkx as nx
 from sklearn.cluster import KMeans
 import matplotlib.colors as colors
 from itertools import cycle
-import time
 import matplotlib.pyplot as plt
 import subprocess
-from utils import tsne
-import pdb
+from DNGR.utils import tsne
 import numpy as np
-from sklearn.metrics import normalized_mutual_info_score as nmi
 import scipy.io as sio
 
 
